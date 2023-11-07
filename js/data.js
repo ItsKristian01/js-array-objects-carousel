@@ -41,16 +41,13 @@ console.log(imagesString);
 
 itemsElem.innerHTML = itemsElem.innerHTML + imagesString;
 
-
 let currentIndex = 0; 
 const slideElems = document.querySelectorAll(".item");
 slideElems[currentIndex].classList.add("active");
 
 
 document.querySelector(".next").addEventListener("click", function () {
-
   slideElems[currentIndex].classList.remove("active");
-
   if (currentIndex < slideElems.length - 1) {
     currentIndex++;
   } else {

@@ -1,4 +1,4 @@
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,8 +14,8 @@
 
 .items {
     position: relative;
-    width: 700px;
-    height: 300px;
+    width: 850px;
+    height: 600px;
     margin: 0 auto;
 }
 
@@ -26,9 +26,10 @@
 }
 
 .item img {
-    width: 700px;
-    height: 300px;
+    width: 900px;
+    height: 600px;
     object-fit: cover;
+    border-radius: 2rem;
 }
 
 .item.active {
@@ -49,13 +50,13 @@
 }
 
 .prev {
-    top: 130px;
+    top: 240px;
     left: 30px;
 }
 
 .next {
-    top: 130px;
-    left: 670px;
+    top: 240px;
+    left: 870px;
 }
 
 .prev::after {
@@ -88,8 +89,8 @@
 
 .title{
     position: absolute;
-    top: 170px;
-    left: 280px;
+    top: 470px;
+    left: 400px;
     color: rgb(255, 255, 255);
     font-family: 'Enriqueta', arial, serif; 
     line-height: 1.25; 
@@ -100,8 +101,8 @@
 
 .description {
     position: absolute;
-    top: 210px;
-    left: 270px;
+    top: 510px;
+    left: 370px;
     color: white;
     color: #ffffff; font-family: 'Raleway',sans-serif; 
     font-size: 15px; 
