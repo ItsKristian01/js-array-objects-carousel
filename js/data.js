@@ -34,6 +34,8 @@ for (let i = 0; i < images.length; i++) {
   imagesString += `
     <div class="item">
          <img src="./${curElem.image}" alt="">
+         <h2>${curElem.title}</h2>
+         <p>${curElem.text}</p>
     </div>`;
 }
 
