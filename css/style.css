@@ -71,6 +71,7 @@
     top: 35%;
     left: 50%;
     transform: translate(-50%) rotate(-135deg);
+    cursor: pointer;
 }
 
 .next::before {
@@ -110,3 +111,7 @@
     margin: 0 0 24px; 
     text-align: center
 }
+
+
+  
+  
