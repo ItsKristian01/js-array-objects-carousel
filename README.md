@@ -1,4 +1,4 @@
-### ESERCIZIO: Campo Minato
+### ESERCIZIO: Carousel
 
 ---
 
